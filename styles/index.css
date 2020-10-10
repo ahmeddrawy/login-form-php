@@ -1,0 +1,17 @@
+.loginform{
+    background-color: cadetblue; 
+    width: 200px;
+    margin: 0 auto;
+    padding: 40px;
+    
+}
+
+
+/* .login-content{
+} */
+#login-btn, #register-btn{
+    margin: 10px;   
+    position: relative;
+    right: -100px;
+    width: 4rem;
+}

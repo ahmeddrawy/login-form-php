@@ -3,28 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
     <title>My log in app </title>
 </head>
 <body>
-    <form action="login.php" method="POST">
-        <div class="email">
-            Email:
-            <br>    
-            <input type="email" name="email" id="">
-            <br>
-        </div>
+    <form action="login.php" method="POST" class="loginform">
+        <div class="form-content">
 
-        <div class="password">
-            Password :
-            <br>
-            <input type="password" name="password" id="">
-            <br>
-        </div>
-            <button type="submit">submit</button>
-    </form>
-    <form action="register.php" method="post">
-        <button type="submit">register</button>
-    </form>
+            <div class="email">
+                Email:
+                <br>    
+                <input type="email" name="email" id="">
+                <br>
+            </div>
+            
+            <div class="password">
+                Password :
+                <br>
+                <input type="password" name="password" id="">
+                <br>
+            </div>
+            <button type="submit" id="login-btn">submit</button>
+        </form>
+        <form action="register.php" method="post" class="register-form">
+            <button type="submit" id="register-btn">register</button>
+        </form>
+    </div>
     
 </body>
 </html>
