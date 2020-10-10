@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/index.css">
+    <script  src="/javascript/index.js"></script>
     <title>My log in app </title>
 </head>
 <body>
-    <form action="login.php" method="POST" class="loginform">
-        <div class="form-content">
-
+    <div class="form-content">
+        <form action="php/login.php" method="POST" class="loginform">
             <div class="email">
                 Email:
                 <br>    
@@ -25,8 +25,9 @@
             </div>
             <button type="submit" id="login-btn">submit</button>
         </form>
-        <form action="register.php" method="post" class="register-form">
-            <button type="submit" id="register-btn">register</button>
+        <form action="php/register.php" method="post" class="register-form">
+            <button type="submit" id ="register-btn">register</button>
+            <!-- <input type="button" value="register" onclick="redirectToRegister()"  id="register-btn"> -->
         </form>
     </div>
     
